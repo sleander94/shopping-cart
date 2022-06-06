@@ -4,8 +4,8 @@ import '../styles/Nav.css';
 
 const Nav = () => {
   return (
-    <div id="nav">
-      <nav>
+    <div id="page">
+      <nav id="nav">
         <div className="title">Outdoor Store</div>
         <div className="links">
           <Link to="/home">Home</Link>
