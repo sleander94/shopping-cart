@@ -1,0 +1,31 @@
+#home {
+  display: grid;
+  grid: 1fr 1fr 1fr 1fr / 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 72px;
+  height: 100%;
+}
+
+#home img {
+  grid-area: 1 / 2 / 5 / 3;
+  width: 600px;
+  height: auto;
+}
+
+.homeTitle1 {
+  grid-area: 1 / 1 / 2 / 2;
+  font-size: 2rem;
+}
+.homeTitle2 {
+  grid-area: 2 / 1 / 3 / 2;
+  font-size: 3rem;
+}
+
+.homeTitle3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+#home a {
+  grid-area: 4 / 1 / 5 / 2;
+}
