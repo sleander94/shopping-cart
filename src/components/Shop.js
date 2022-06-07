@@ -14,7 +14,7 @@ const Shop = () => {
       if (product.name === item.name) {
         item.quantity += 1;
         added = true;
-        // Updating state here to trigger rerender to show quantity change
+        // Updating state here to trigger rerender & show quantity change
         setCartProducts([...cartProducts]);
       }
     });
@@ -23,6 +23,20 @@ const Shop = () => {
       setCartProducts([...cartProducts, product]);
     }
   };
+
+  const changeQuantity = (operator, name) => {
+    let updatedProducts = [...cartProducts];
+    updatedProducts.forEach((product) => {
+      if (product.name === name) {
+        if (operator === '+') {
+          product.quantity = product.quantity += 1;
+        } else if (operator === '-') {
+          product.quantity = product.quantity -= 1;
+        }
+      }
+    });
+    setCartProducts(updatedProducts);
+  };
   return (
     <div id="shop">
       <div className="products">
@@ -30,13 +44,12 @@ const Shop = () => {
           <Product
             key={productList.indexOf(product)}
             {...product}
-            quantity={null}
             index={productList.indexOf(product)}
             addToCart={addToCart}
           />
         ))}
       </div>
-      <Cart cartProducts={cartProducts} />
+      <Cart cartProducts={cartProducts} changeQuantity={changeQuantity} />
     </div>
   );
 };
