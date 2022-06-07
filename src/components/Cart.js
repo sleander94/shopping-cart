@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import Product from './Product';
+import CartProduct from './CartProduct';
 import '../styles/Cart.css';
 
-const Cart = ({ cartProducts }) => {
+const Cart = ({ cartProducts, changeQuantity }) => {
   const [isShown, setIsShown] = useState(false);
 
   const showCart = () => {
     if (!isShown) {
       setIsShown(true);
-      console.log(cartProducts);
     } else {
       setIsShown(false);
     }
@@ -21,13 +20,16 @@ const Cart = ({ cartProducts }) => {
       </button>
       {isShown && (
         <div id="cartDisplay">
-          {cartProducts.map((product) => (
-            <Product
-              key={cartProducts.indexOf(product)}
-              {...product}
-              index={cartProducts.indexOf(product)}
-            />
-          ))}
+          {cartProducts
+            .filter((product) => product.quantity > 0)
+            .map((product) => (
+              <CartProduct
+                key={cartProducts.indexOf(product)}
+                {...product}
+                index={cartProducts.indexOf(product)}
+                changeQuantity={changeQuantity}
+              />
+            ))}
         </div>
       )}
     </div>
