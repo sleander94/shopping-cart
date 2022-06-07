@@ -13,6 +13,11 @@ const Cart = ({ cartProducts, changeQuantity }) => {
     }
   };
 
+  let total = 0;
+  cartProducts.forEach((product) => {
+    total += product.price * product.quantity;
+  });
+
   return (
     <div id="cart">
       <button id="cartButton" onClick={showCart}>
@@ -30,6 +35,7 @@ const Cart = ({ cartProducts, changeQuantity }) => {
                 changeQuantity={changeQuantity}
               />
             ))}
+          <div className="total">Total: ${total}</div>
         </div>
       )}
     </div>
