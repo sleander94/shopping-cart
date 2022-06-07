@@ -7,6 +7,7 @@ const CartProduct = ({ name, price, image, alt, quantity, changeQuantity }) => {
       <img src={image} alt={alt}></img>
       <div className="name">{name}</div>
       <div className="price">${price}</div>
+      <div className="productTotal">${price * quantity}</div>
       <div className="quantity">
         <button className="increment" onClick={() => changeQuantity('+', name)}>
           +
