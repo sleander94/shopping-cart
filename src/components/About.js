@@ -9,10 +9,18 @@ const About = () => {
   return (
     <div id="about">
       <div className="icons">
-        <img src={github} alt="github"></img>
-        <img src={instagram} alt="instagram"></img>
-        <img src={facebook} alt="facebook"></img>
-        <img src={twitter} alt="twitter"></img>
+        <a href="https://github.com/sleander94/">
+          <img src={github} alt="github"></img>
+        </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <img src={instagram} alt="instagram"></img>
+        </a>
+        <a href="https://c.tenor.com/GbutACtJBTMAAAAd/cat.gif">
+          <img src={facebook} alt="facebook"></img>
+        </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <img src={twitter} alt="twitter"></img>
+        </a>
       </div>
     </div>
   );
