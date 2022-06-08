@@ -23,7 +23,7 @@ nav .links {
   gap: 12px;
 }
 
-nav .links a {
+nav a {
   color: white;
   font-size: 1.3rem;
   font-weight: 400;
