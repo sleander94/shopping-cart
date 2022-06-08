@@ -1,9 +1,23 @@
 #main {
+  display: grid;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
-#main .content {
-  padding-top: 100px;
-  height: 85%;
+#main #content {
+  width: 100%;
+}
+
+#main #footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: end;
+  gap: 24px;
+  padding: 8px;
+}
+
+#footer img {
+  width: 24px;
+  height: 24px;
 }
