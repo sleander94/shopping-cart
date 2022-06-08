@@ -1,0 +1,16 @@
+#about {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#about .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+#about .icons img {
+  height: 100px;
+  width: 100px;
+}
