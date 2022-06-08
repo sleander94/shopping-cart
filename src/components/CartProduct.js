@@ -1,22 +1,21 @@
 import React from 'react';
-import '../styles/Product.css';
+import '../styles/CartProduct.css';
 
 const CartProduct = ({ name, price, image, alt, quantity, changeQuantity }) => {
   return (
-    <div className="product">
+    <div className="cartProduct">
       <img src={image} alt={alt}></img>
       <div className="name">{name}</div>
-      <div className="price">${price}</div>
-      <div className="productTotal">${price * quantity}</div>
       <div className="quantity">
-        <button className="increment" onClick={() => changeQuantity('+', name)}>
-          +
-        </button>
-        <div>{quantity}</div>
         <button className="decrement" onClick={() => changeQuantity('-', name)}>
           -
         </button>
+        <div>{quantity}</div>
+        <button className="increment" onClick={() => changeQuantity('+', name)}>
+          +
+        </button>
       </div>
+      <div className="price">${(price * quantity).toFixed(2)}</div>
     </div>
   );
 };
