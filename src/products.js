@@ -12,12 +12,6 @@ const products = [
     alt: 'orange and blue tent',
   },
   {
-    name: 'Long Range Binoculars',
-    price: '219.99',
-    image: require('./images/binoculars.jpeg'),
-    alt: 'black binoculars',
-  },
-  {
     name: 'Sub-Zero Sleeping Bag',
     price: '99.99',
     image: require('./images/sleepingbag.jpeg'),
@@ -28,18 +22,6 @@ const products = [
     price: '165.49',
     image: require('./images/doublebag.jpeg'),
     alt: 'orange and blue double sleeping bag',
-  },
-  {
-    name: 'Weather Proof Handhelf GPS',
-    price: '699.99',
-    image: require('./images/gps.jpeg'),
-    alt: 'gps displaying color map',
-  },
-  {
-    name: 'High Visibility Puffer Jacket',
-    price: '79.95',
-    image: require('./images/jacket.jpeg'),
-    alt: ' red jacket',
   },
   {
     name: 'Mens Trekking Pack 60L',
@@ -54,22 +36,40 @@ const products = [
     alt: 'teal trekking backpack',
   },
   {
-    name: 'Stainless Steel Multitool',
-    price: '149.99',
-    image: require('./images/multitool.jpeg'),
-    alt: 'multitool displaying pliers and knives',
-  },
-  {
     name: 'Carbon Fiber Trekking Poles',
     price: '199.99',
     image: require('./images/poles.jpeg'),
     alt: 'extendable trekking poles with wrist straps',
   },
   {
+    name: 'High Visibility Puffer Jacket',
+    price: '79.95',
+    image: require('./images/jacket.jpeg'),
+    alt: ' red jacket',
+  },
+  {
     name: 'Portable Gas Camp Stove',
     price: '89.99',
     image: require('./images/stove.jpeg'),
     alt: 'double burner red camp stove',
+  },
+  {
+    name: 'Long Range Binoculars',
+    price: '219.99',
+    image: require('./images/binoculars.jpeg'),
+    alt: 'black binoculars',
+  },
+  {
+    name: 'Weather Proof Handhelf GPS',
+    price: '699.99',
+    image: require('./images/gps.jpeg'),
+    alt: 'gps displaying color map',
+  },
+  {
+    name: 'Stainless Steel Multitool',
+    price: '149.99',
+    image: require('./images/multitool.jpeg'),
+    alt: 'multitool displaying pliers and knives',
   },
 ];
 
