@@ -13,6 +13,7 @@ const Home = () => {
       <div className="imageContainer">
         <img
           src={require('../images/todd-diemer-fpNBYsymggk-unsplash.jpg')}
+          alt="hikers climbing a snowy mountain"
         ></img>
         <div className="credit">Photo by Todd Diemer on Unsplash</div>
       </div>
