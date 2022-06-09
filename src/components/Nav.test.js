@@ -1,11 +1,14 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import renderer from 'react-test-renderer';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import userEvent from '@testing-library/user-event';
 import { BrowserRouter } from 'react-router-dom';
 import Nav from './Nav';
 
 describe('Nav component', () => {
-  it('renders h1 and Link div', () => {
-    const { nav } = render(
+  it('renders correctly', () => {
+    const nav = renderer.create(
       <BrowserRouter>
         <Nav />
       </BrowserRouter>
@@ -13,24 +16,19 @@ describe('Nav component', () => {
     expect(nav).toMatchSnapshot();
   });
 
-  it('renders 4 Links', () => {
-    const { getAllByRole } = render(
+  it('routes correct on click', () => {
+    render(
       <BrowserRouter>
         <Nav />
       </BrowserRouter>
     );
-    expect(getAllByRole('link').length).toBe(4);
-  });
-
-  it('renders Links with correct text', () => {
-    const { getAllByRole } = render(
-      <BrowserRouter>
-        <Nav />
-      </BrowserRouter>
-    );
-    expect(getAllByRole('link')[0].textContent).toMatch(/outdoor store/i);
-    expect(getAllByRole('link')[1].textContent).toMatch(/home/i);
-    expect(getAllByRole('link')[2].textContent).toMatch(/shop/i);
-    expect(getAllByRole('link')[3].textContent).toMatch(/about/i);
+    userEvent.click(screen.getByRole('link', { name: 'Home' }));
+    expect(window.location.href).toContain('/home');
+    userEvent.click(screen.getByRole('link', { name: 'Shop' }));
+    expect(window.location.href).toContain('/shop');
+    userEvent.click(screen.getByRole('link', { name: 'About' }));
+    expect(window.location.href).toContain('/about');
+    userEvent.click(screen.getByRole('link', { name: 'Outdoor Store' }));
+    expect(window.location.href).toContain('/home');
   });
 });
