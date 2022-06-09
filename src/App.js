@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import Main from './components/Main';
 import Home from './components/Home';
 import Shop from './components/Shop';
@@ -41,16 +46,13 @@ const App = () => {
     setCartProducts(updatedProducts);
   };
   return (
-    <BrowserRouter>
+    <Router basename="/">
       <Routes>
-        <Route path="/shopping-cart" element={<Main />}>
+        <Route path="/" element={<Main />}>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
           <Route
-            path="/shopping-cart"
-            element={<Navigate to="/shopping-cart/home" />}
-          />
-          <Route path="/shopping-cart/home" element={<Home />} />
-          <Route
-            path="/shopping-cart/shop"
+            path="/shop"
             element={
               <Shop
                 cartProducts={cartProducts}
@@ -59,11 +61,11 @@ const App = () => {
               />
             }
           />
-          <Route path="/shopping-cart/about" element={<About />} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
       <Cart cartProducts={cartProducts} changeQuantity={changeQuantity} />
-    </BrowserRouter>
+    </Router>
   );
 };
 export default App;
