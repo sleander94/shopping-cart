@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.d8827a17.css",
-    "main.js": "/shopping-cart/static/js/main.ff39ee98.js",
+    "main.js": "/shopping-cart/static/js/main.61098eaf.js",
     "static/media/todd-diemer-fpNBYsymggk-unsplash.jpg": "/shopping-cart/static/media/todd-diemer-fpNBYsymggk-unsplash.e155a77d440a3223dbcd.jpg",
     "static/media/stove.jpeg": "/shopping-cart/static/media/stove.97f157a43e78bb1e2336.jpeg",
     "static/media/binoculars.jpeg": "/shopping-cart/static/media/binoculars.806bd9f40e3a4cfe6dfb.jpeg",
@@ -22,10 +22,10 @@
     "index.html": "/shopping-cart/index.html",
     "static/media/iconmonstr-facebook-1.svg": "/shopping-cart/static/media/iconmonstr-facebook-1.acd66cb0a8fe91db24c8a48265cf4f25.svg",
     "main.d8827a17.css.map": "/shopping-cart/static/css/main.d8827a17.css.map",
-    "main.ff39ee98.js.map": "/shopping-cart/static/js/main.ff39ee98.js.map"
+    "main.61098eaf.js.map": "/shopping-cart/static/js/main.61098eaf.js.map"
   },
   "entrypoints": [
     "static/css/main.d8827a17.css",
-    "static/js/main.ff39ee98.js"
+    "static/js/main.61098eaf.js"
   ]
 }
