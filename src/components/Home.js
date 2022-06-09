@@ -10,7 +10,7 @@ const Home = () => {
       </div>
       <div className="homeTitle2">The right gears means everything.</div>
       <div className="homeTitle3">Be prepared for any challenge.</div>
-      <div class="imageContainer">
+      <div className="imageContainer">
         <img
           src={require('../images/todd-diemer-fpNBYsymggk-unsplash.jpg')}
         ></img>
