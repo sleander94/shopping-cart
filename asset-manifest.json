@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.d8827a17.css",
+    "main.js": "/shopping-cart/static/js/main.fad7f1f5.js",
+    "static/media/todd-diemer-fpNBYsymggk-unsplash.jpg": "/shopping-cart/static/media/todd-diemer-fpNBYsymggk-unsplash.e155a77d440a3223dbcd.jpg",
+    "static/media/stove.jpeg": "/shopping-cart/static/media/stove.97f157a43e78bb1e2336.jpeg",
+    "static/media/binoculars.jpeg": "/shopping-cart/static/media/binoculars.806bd9f40e3a4cfe6dfb.jpeg",
+    "static/media/4tent.jpeg": "/shopping-cart/static/media/4tent.d67eda8a25a52841fdf0.jpeg",
+    "static/media/6tent.jpeg": "/shopping-cart/static/media/6tent.d3211886d74de613c5d3.jpeg",
+    "static/media/doublebag.jpeg": "/shopping-cart/static/media/doublebag.170a85575f32aa8fda9b.jpeg",
+    "static/media/jacket.jpeg": "/shopping-cart/static/media/jacket.7f20da5776265e2631f9.jpeg",
+    "static/media/wbackpack.jpeg": "/shopping-cart/static/media/wbackpack.e88b12effd975d553853.jpeg",
+    "static/media/mbackpack.jpeg": "/shopping-cart/static/media/mbackpack.e88794b8bcf7bf4dff75.jpeg",
+    "static/media/multitool.jpeg": "/shopping-cart/static/media/multitool.adb0fd4bb3ecec18aeea.jpeg",
+    "static/media/gps.jpeg": "/shopping-cart/static/media/gps.6b93f06c8263df4dc695.jpeg",
+    "static/media/sleepingbag.jpeg": "/shopping-cart/static/media/sleepingbag.cc0005faf9f159b13d6c.jpeg",
+    "static/media/poles.jpeg": "/shopping-cart/static/media/poles.71c1ae6a24c9d738c79c.jpeg",
+    "static/media/iconmonstr-instagram-11.svg": "/shopping-cart/static/media/iconmonstr-instagram-11.6ed2cb5264b2240800b4eca149b65721.svg",
+    "static/media/iconmonstr-github-1.svg": "/shopping-cart/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/cart.svg": "/shopping-cart/static/media/cart.b1708bd5946836cb185d1c36807ebb2f.svg",
+    "static/media/iconmonstr-twitter-1.svg": "/shopping-cart/static/media/iconmonstr-twitter-1.5ae9f4cf80c1f851b13c3fb4494b8d39.svg",
+    "index.html": "/shopping-cart/index.html",
+    "static/media/iconmonstr-facebook-1.svg": "/shopping-cart/static/media/iconmonstr-facebook-1.acd66cb0a8fe91db24c8a48265cf4f25.svg",
+    "main.d8827a17.css.map": "/shopping-cart/static/css/main.d8827a17.css.map",
+    "main.fad7f1f5.js.map": "/shopping-cart/static/js/main.fad7f1f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8827a17.css",
+    "static/js/main.fad7f1f5.js"
+  ]
+}
