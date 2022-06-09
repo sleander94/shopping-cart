@@ -13,32 +13,24 @@ describe('Nav component', () => {
     expect(nav).toMatchSnapshot();
   });
 
-  it('renders correct title', () => {
-    const { getByRole } = render(
-      <BrowserRouter>
-        <Nav />
-      </BrowserRouter>
-    );
-    expect(getByRole('heading').textContent).toMatch(/outdoor store/i);
-  });
-
-  it('renders 3 Links', () => {
+  it('renders 4 Links', () => {
     const { getAllByRole } = render(
       <BrowserRouter>
         <Nav />
       </BrowserRouter>
     );
-    expect(getAllByRole('link').length).toBe(3);
+    expect(getAllByRole('link').length).toBe(4);
   });
 
-  it('renders Links with correct names', () => {
+  it('renders Links with correct text', () => {
     const { getAllByRole } = render(
       <BrowserRouter>
         <Nav />
       </BrowserRouter>
     );
-    expect(getAllByRole('link')[0].textContent).toMatch(/home/i);
-    expect(getAllByRole('link')[1].textContent).toMatch(/shop/i);
-    expect(getAllByRole('link')[2].textContent).toMatch(/about/i);
+    expect(getAllByRole('link')[0].textContent).toMatch(/outdoor store/i);
+    expect(getAllByRole('link')[1].textContent).toMatch(/home/i);
+    expect(getAllByRole('link')[2].textContent).toMatch(/shop/i);
+    expect(getAllByRole('link')[3].textContent).toMatch(/about/i);
   });
 });
