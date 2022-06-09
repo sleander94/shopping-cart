@@ -10,10 +10,11 @@ nav {
   color: white;
 }
 
-nav h1 {
+nav .title {
   font-size: 3rem;
   font-weight: 600;
   width: 400px;
+  height: 3rem;
 }
 
 nav .links {
