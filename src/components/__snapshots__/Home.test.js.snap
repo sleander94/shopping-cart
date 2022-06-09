@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly 1`] = `
+<div
+  id="home"
+>
+  <div
+    className="homeTitle1"
+  >
+    Our favorite places are full of surprises...
+  </div>
+  <div
+    className="homeTitle2"
+  >
+    The right gear means everything.
+  </div>
+  <div
+    className="homeTitle3"
+  >
+    Be prepared for any challenge.
+  </div>
+  <div
+    className="imageContainer"
+  >
+    <img
+      src="todd-diemer-fpNBYsymggk-unsplash.jpg"
+    />
+    <div
+      className="credit"
+    >
+      Photo by Todd Diemer on Unsplash
+    </div>
+  </div>
+  <a
+    href="/shop"
+    onClick={[Function]}
+  >
+    Shop now
+  </a>
+</div>
+`;

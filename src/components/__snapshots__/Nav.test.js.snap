@@ -1,3 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav component renders h1 and Link div 1`] = `undefined`;
+exports[`Nav component renders correctly 1`] = `
+<nav
+  id="nav"
+>
+  <a
+    className="title"
+    href="/home"
+    onClick={[Function]}
+  >
+    Outdoor Store
+  </a>
+  <div
+    className="links"
+  >
+    <a
+      href="/home"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/shop"
+      onClick={[Function]}
+    >
+      Shop
+    </a>
+    <a
+      href="/about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </div>
+</nav>
+`;

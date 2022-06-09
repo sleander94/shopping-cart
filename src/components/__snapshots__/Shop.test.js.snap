@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shop component renders correctly 1`] = `
+<div
+  id="shop"
+>
+  <div
+    className="products"
+  >
+    <div
+      className="product"
+    >
+      <img
+        alt="green tent"
+        src="4tent.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Four Person Camping Tent
+      </div>
+      <div
+        className="price"
+      >
+        $
+        349.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="orange and blue tent"
+        src="6tent.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Six Person Luxury Tent
+      </div>
+      <div
+        className="price"
+      >
+        $
+        499.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="yellow and black sleeping bag"
+        src="sleepingbag.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Sub-Zero Sleeping Bag
+      </div>
+      <div
+        className="price"
+      >
+        $
+        99.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="orange and blue double sleeping bag"
+        src="doublebag.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Double Sleeping Bag
+      </div>
+      <div
+        className="price"
+      >
+        $
+        165.49
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="beige trekking backpack"
+        src="mbackpack.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Mens Trekking Pack 60L
+      </div>
+      <div
+        className="price"
+      >
+        $
+        219.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="teal trekking backpack"
+        src="wbackpack.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Womens Trekking Pack 60L
+      </div>
+      <div
+        className="price"
+      >
+        $
+        229.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="extendable trekking poles with wrist straps"
+        src="poles.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Carbon Fiber Trekking Poles
+      </div>
+      <div
+        className="price"
+      >
+        $
+        199.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt=" red jacket"
+        src="jacket.jpeg"
+      />
+      <div
+        className="name"
+      >
+        High Visibility Puffer Jacket
+      </div>
+      <div
+        className="price"
+      >
+        $
+        79.95
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="double burner red camp stove"
+        src="stove.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Portable Gas Camp Stove
+      </div>
+      <div
+        className="price"
+      >
+        $
+        89.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="black binoculars"
+        src="binoculars.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Long Range Binoculars
+      </div>
+      <div
+        className="price"
+      >
+        $
+        219.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="gps displaying color map"
+        src="gps.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Weather Proof Handhelf GPS
+      </div>
+      <div
+        className="price"
+      >
+        $
+        699.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      className="product"
+    >
+      <img
+        alt="multitool displaying pliers and knives"
+        src="multitool.jpeg"
+      />
+      <div
+        className="name"
+      >
+        Stainless Steel Multitool
+      </div>
+      <div
+        className="price"
+      >
+        $
+        149.99
+      </div>
+      <button
+        className="addToCart"
+        onClick={[Function]}
+      >
+        Add to cart
+      </button>
+    </div>
+  </div>
+</div>
+`;

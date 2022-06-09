@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component renders correctly 1`] = `
+<div
+  id="about"
+>
+  <div
+    className="icons"
+  >
+    <a
+      href="https://github.com/sleander94/"
+    >
+      <img
+        alt="github"
+        src="iconmonstr-github-1.svg"
+      />
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    >
+      <img
+        alt="instagram"
+        src="iconmonstr-instagram-11.svg"
+      />
+    </a>
+    <a
+      href="https://c.tenor.com/GbutACtJBTMAAAAd/cat.gif"
+    >
+      <img
+        alt="facebook"
+        src="iconmonstr-facebook-1.svg"
+      />
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    >
+      <img
+        alt="twitter"
+        src="iconmonstr-twitter-1.svg"
+      />
+    </a>
+  </div>
+</div>
+`;
