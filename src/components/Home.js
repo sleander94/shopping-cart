@@ -8,7 +8,7 @@ const Home = () => {
       <div className="homeTitle1">
         Our favorite places are full of surprises...
       </div>
-      <div className="homeTitle2">The right gears means everything.</div>
+      <div className="homeTitle2">The right gear means everything.</div>
       <div className="homeTitle3">Be prepared for any challenge.</div>
       <div className="imageContainer">
         <img
