@@ -2,10 +2,10 @@ nav {
   display: grid;
   grid: 1fr / 3fr 1fr;
   align-items: center;
-  padding: 24px 100px 24px 100px;
+  padding: 2rem 3rem;
   width: 100%;
   height: 15%;
-  min-height: 140px;
+  min-height: 9rem;
   background-color: black;
   color: white;
 }
@@ -13,13 +13,14 @@ nav {
 nav .title {
   font-size: 3rem;
   font-weight: 600;
-  width: 400px;
+  max-width: 400px;
   height: 3rem;
 }
 
 nav .links {
   display: grid;
-  grid-template-columns: 75px 75px 75px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: end;
   align-items: center;
   gap: 12px;
 }
@@ -34,4 +35,21 @@ nav a {
 
 nav .links a:hover {
   font-size: 1.35rem;
+}
+
+@media only screen and (max-width: 720px) {
+  nav {
+    grid: 1fr 1fr / 1fr;
+    gap: 18px;
+    justify-items: center;
+  }
+  nav .links {
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  nav .title {
+    font-size: 2.5rem;
+  }
 }

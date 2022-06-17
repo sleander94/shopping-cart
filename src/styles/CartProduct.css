@@ -48,3 +48,20 @@
 .cartProduct .price {
   justify-self: end;
 }
+
+@media only screen and (max-width: 800px) {
+  .cartProduct {
+    gap: 6px;
+  }
+  .cartProduct img {
+    width: 80px;
+    height: 80px;
+  }
+  .cartProduct .quantity {
+    gap: 6px;
+  }
+  .increment,
+  .decrement {
+    padding: 3px 6px;
+  }
+}

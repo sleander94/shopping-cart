@@ -16,3 +16,12 @@
   max-width: 1400px;
   background: rgb(240, 240, 240);
 }
+
+@media only screen and (max-width: 1080px) {
+  .products {
+    gap: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    min-width: 90vw;
+  }
+}

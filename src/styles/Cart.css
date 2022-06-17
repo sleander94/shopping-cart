@@ -4,7 +4,6 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-
   padding: 18px;
   border-radius: 50%;
   background: white;
@@ -37,24 +36,27 @@
 }
 
 #cartContainer {
+  z-index: 3;
   position: fixed;
   background: #00000050;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
 }
 
 #cartDisplay {
+  z-index: 3;
   display: grid;
   align-items: center;
   gap: 12px;
   position: relative;
   width: 50%;
+  max-width: 800px;
   height: auto;
   min-height: 30vh;
   max-height: 70vh;
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-left: 25vw;
   background: rgb(240, 240, 240);
   padding: 15px 30px 15px 30px;
@@ -72,14 +74,14 @@
 }
 
 .cartLabels {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid: 1fr / 1fr 1fr;
   padding: 0px 24px;
   font-weight: 600;
 }
 
-.cartLabels .quantity {
-  padding-left: 340px;
+.cartLabels .price {
+  justify-self: end;
 }
 
 #cartProducts {
@@ -130,4 +132,21 @@
 
 .total {
   justify-self: end;
+}
+
+@media only screen and (max-width: 800px) {
+  #cartDisplay {
+    width: 95vw;
+    min-height: 30vh;
+    max-height: 75vh;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    background: rgb(240, 240, 240);
+    padding: 15px 30px 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  #cartProducts {
+    overflow: scroll;
+  }
 }
