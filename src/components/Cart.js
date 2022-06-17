@@ -36,7 +36,6 @@ const Cart = ({ cartProducts, changeQuantity }) => {
             <h3 className="title">Your Cart</h3>
             <div className="cartLabels">
               <div className="name">Item</div>
-              <div className="quantity">Qty.</div>
               <div className="price">Price</div>
             </div>
             <div id="cartProducts">
