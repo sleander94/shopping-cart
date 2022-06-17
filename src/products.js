@@ -24,13 +24,13 @@ const products = [
     alt: 'orange and blue double sleeping bag',
   },
   {
-    name: 'Mens Trekking Pack 60L',
+    name: 'Mens Trekking Pack',
     price: '219.99',
     image: require('./images/mbackpack.jpeg'),
     alt: 'beige trekking backpack',
   },
   {
-    name: 'Womens Trekking Pack 60L',
+    name: 'Womens Trekking Pack',
     price: '229.99',
     image: require('./images/wbackpack.jpeg'),
     alt: 'teal trekking backpack',
