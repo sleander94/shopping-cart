@@ -2,8 +2,8 @@
   cursor: pointer;
   z-index: 3;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 15px;
+  right: 15px;
   padding: 18px;
   border-radius: 50%;
   background: white;
@@ -22,8 +22,8 @@
 
 .totalProducts {
   position: fixed;
-  bottom: 72px;
-  right: 22px;
+  bottom: 58px;
+  right: 7px;
   z-index: 3;
   width: 30px;
   height: 30px;
